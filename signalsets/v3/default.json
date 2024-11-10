@@ -1,7 +1,3 @@
 { "commands": [
-{ "hdr": "300", "fcm1": true, "cmd": {"22": "F190"}, "freq": 15,
-  "signals": [
-    {"id": "X3_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "mul": 8, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
-  ]}
 ]
 }
