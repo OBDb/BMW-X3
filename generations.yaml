@@ -1,0 +1,15 @@
+generations:
+  - name: "First Generation (E83)"
+    start_year: 2003
+    end_year: 2010
+    description: "The original BMW X3 pioneered the compact luxury SUV segment, based on a modified 3 Series platform. It featured permanent all-wheel drive (xDrive) and was positioned as a more agile, road-focused alternative to larger SUVs. Engine options included four and six-cylinder petrol and diesel units. While initially criticized for firm ride quality and some interior material choices, later models addressed these issues through updates. The first-generation X3 helped establish the premium compact SUV category that would later become one of the most competitive segments in the automotive market."
+
+  - name: "Second Generation (F25)"
+    start_year: 2010
+    end_year: 2017
+    description: "The F25 X3 offered significant improvements in design, quality, and driving dynamics. Larger than its predecessor, it provided more interior space and improved ride comfort while maintaining the handling characteristics BMW was known for. Engine options expanded to include more efficient turbocharged four and six-cylinder units. Technology advanced with the introduction of BMW's iDrive system, available heads-up display, and advanced driver assistance features. This generation cemented the X3's position as one of BMW's core models and a segment benchmark."
+
+  - name: "Third Generation (G01)"
+    start_year: 2017
+    end_year: null
+    description: "The current X3 builds on its predecessors' success with more refined styling, enhanced technology, and improved performance. Built on BMW's CLAR platform, it offers a range of powertrains from efficient four-cylinders to the high-performance X3 M with up to 503 HP. The lineup expanded to include a plug-in hybrid variant (xDrive30e) and the all-electric iX3 in some markets. The interior features higher quality materials, larger displays, and advanced connectivity options. A facelift in 2021 updated the exterior styling and interior technology. Throughout its evolution, the X3 has grown from a niche offering to one of BMW's global best-sellers, balancing practicality, technology, and driving dynamics in the highly competitive premium compact SUV segment."
