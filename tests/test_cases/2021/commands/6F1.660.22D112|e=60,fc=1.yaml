@@ -1,0 +1,11 @@
+command_id: 6F1.660.22D112|e=60,fc=1
+test_cases:
+- response: 660F10562D1126060
+  expected_values:
+    X3_AAT: 8
+- response: 660F10562D112616A
+  expected_values:
+    X3_AAT: 8.5
+- response: 660F10562D1126173
+  expected_values:
+    X3_AAT: 8.5
