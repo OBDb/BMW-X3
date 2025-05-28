@@ -8,37 +8,7 @@ test_cases:
     X3_ODO_ALT: 80036
 - response: |-
     660F1100B62D10D0001
-    660F12138A5000138A5
+    660F121396E0001396E
   expected_values:
-    X3_ODO: 80037
-    X3_ODO_ALT: 80037
-- response: |-
-    660F1100B62D10D0001
-    660F12138A6000138A6
-  expected_values:
-    X3_ODO: 80038
-    X3_ODO_ALT: 80038
-- response: |-
-    660F1100B62D10D0001
-    660F12138A7000138A7
-  expected_values:
-    X3_ODO: 80039
-    X3_ODO_ALT: 80039
-- response: |-
-    660F1100B62D10D0001
-    660F12138A8000138A8
-  expected_values:
-    X3_ODO: 80040
-    X3_ODO_ALT: 80040
-- response: |-
-    660F1100B62D10D0001
-    660F12138A9000138A9
-  expected_values:
-    X3_ODO: 80041
-    X3_ODO_ALT: 80041
-- response: |-
-    660F1100B62D10D0001
-    660F12138AA000138AA
-  expected_values:
-    X3_ODO: 80042
-    X3_ODO_ALT: 80042
+    X3_ODO: 80238
+    X3_ODO_ALT: 80238
