@@ -1,0 +1,12 @@
+command_id: 6F1.618.22DA23|e=18,fc=1
+test_cases:
+- expected_values:
+    X3_ODO_LOWRES: 53368
+  response: |-
+    618F1100762DA230000
+    618F1211A0FFFFFFFFF
+- expected_values:
+    X3_ODO_LOWRES: 73784
+  response: |-
+    618F1100762DA230000
+    618F1212407FFFFFFFF
