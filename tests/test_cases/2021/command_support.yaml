@@ -14,6 +14,8 @@ supported_commands_by_ecu:
   - 6F1.660.22D10D|e=60,fc=1:X3_ODO,X3_ODO_ALT
   - 6F1.660.22D112|e=60,fc=1:X3_AAT
   "7DF":
+  - 7DF.010F
+  - 7DF.011F
   - 7DF.012F
   - 7DF.0131
   "7E0":
@@ -91,5 +93,19 @@ unsupported_commands_by_ecu:
   - 7E0.010C:RPM
   - 7E0.010D:VSS
   - 7E0.010F:IAT
+  - 7E0.011F:RUNTM
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
+  - 7E0.0142:VPWR
+  "7E7":
+  - 7E7.7EF.0105
+  - 7E7.7EF.010C
+  - 7E7.7EF.010D
+  "DA10":
+  - DA10.222615
+  - DA10.222660
+  "DA1E":
+  - DA1E.223083
+  - DA1E.223086
+  "DA26":
+  - DA26.226001

@@ -4,5 +4,8 @@ test_cases:
     X3_AAT: 13
   response: 660F10562D1126A6A
 - expected_values:
-    X3_AAT: 19.5
-  response: 660F10562D1127777
+    X3_AAT: 27.5
+  response: 660F10562D11287A4
+- expected_values:
+    X3_AAT: 31
+  response: 660F10562D1128E98
