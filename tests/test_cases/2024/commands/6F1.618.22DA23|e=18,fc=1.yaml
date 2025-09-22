@@ -10,3 +10,13 @@ test_cases:
   response: |-
     618F1100762DA230000
     618F121044DFFFFFFFF
+- expected_values:
+    X3_ODO_LOWRES: 10248
+  response: |-
+    618F1100762DA230000
+    618F1210501FFFFFFFF
+- expected_values:
+    X3_ODO_LOWRES: 10304
+  response: |-
+    618F1100762DA230000
+    618F1210508FFFFFFFF
