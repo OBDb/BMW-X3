@@ -7,5 +7,8 @@ test_cases:
     X3_AAT: 16.5
   response: 660F10562D1127175
 - expected_values:
+    X3_AAT: 21
+  response: 660F10562D1127A91
+- expected_values:
     X3_AAT: 23.5
   response: 660F10562D1127F7F

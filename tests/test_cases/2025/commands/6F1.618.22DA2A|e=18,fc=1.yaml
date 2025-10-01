@@ -7,6 +7,12 @@ test_cases:
     618F1100762DA2A0000
     618F1210000
 - expected_values:
+    X3_TQ_CNVRT_RPM: 954
+    X3_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A03BA
+    618F1210000
+- expected_values:
     X3_TQ_CNVRT_RPM: 1161
     X3_TRANS_SHAFT_RPM: 535
   response: |-
@@ -30,6 +36,18 @@ test_cases:
   response: |-
     618F1100762DA2A0615
     618F1210983
+- expected_values:
+    X3_TQ_CNVRT_RPM: 1847
+    X3_TRANS_SHAFT_RPM: 2890
+  response: |-
+    618F1100762DA2A0737
+    618F1210B4A
+- expected_values:
+    X3_TQ_CNVRT_RPM: 1871
+    X3_TRANS_SHAFT_RPM: 2927
+  response: |-
+    618F1100762DA2A074F
+    618F1210B6F
 - expected_values:
     X3_TQ_CNVRT_RPM: 1906
     X3_TRANS_SHAFT_RPM: 363
