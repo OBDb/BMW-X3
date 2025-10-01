@@ -54,3 +54,9 @@ test_cases:
   response: |-
     618F1100762DA2A0772
     618F121016B
+- expected_values:
+    X3_TQ_CNVRT_RPM: 2111
+    X3_TRANS_SHAFT_RPM: 2566
+  response: |-
+    618F1100762DA2A083F
+    618F1210A06
