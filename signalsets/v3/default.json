@@ -43,7 +43,7 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2026 },
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2026 },
   "signals": [
     {"id": "X3_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
     {"id": "X3_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, setpoint torque"}
@@ -55,7 +55,7 @@
     {"id": "X3_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "X3_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2026 },
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2026 },
   "signals": [
     {"id": "X3_DOOR_DRIVER",         "path": "Doors",   "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
     {"id": "X3_DOOR_PASSENGER",      "path": "Doors",   "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},
@@ -66,16 +66,16 @@
     {"id": "X3_REAR_WINDOW",         "path": "Windows", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear window open"},
     {"id": "X3_CENTRAL_LOCK",        "path": "Doors",   "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Locked",                   "description": "Overall lock state of the vehicle"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2026 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2025 },
   "signals": [
     {"id": "X3_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Speedometer vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2026 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2025 },
   "signals": [
     {"id": "X3_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
     {"id": "X3_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2026 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2025 },
   "signals": [
     {"id": "X3_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]}
