@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     X3_AAT: 0
   response: 660F10562D112505F
+- expected_values:
+    X3_AAT: 1
+  response: 660F10562D112525C
