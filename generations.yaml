@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/BMW_X3"
+
 generations:
   - name: "First Generation (E83)"
     start_year: 2003
@@ -11,5 +14,10 @@ generations:
 
   - name: "Third Generation (G01)"
     start_year: 2017
-    end_year: null
+    end_year: 2024
     description: "The current X3 builds on its predecessors' success with more refined styling, enhanced technology, and improved performance. Built on BMW's CLAR platform, it offers a range of powertrains from efficient four-cylinders to the high-performance X3 M with up to 503 HP. The lineup expanded to include a plug-in hybrid variant (xDrive30e) and the all-electric iX3 in some markets. The interior features higher quality materials, larger displays, and advanced connectivity options. A facelift in 2021 updated the exterior styling and interior technology. Throughout its evolution, the X3 has grown from a niche offering to one of BMW's global best-sellers, balancing practicality, technology, and driving dynamics in the highly competitive premium compact SUV segment."
+
+  - name: "Fourth Generation (G45)"
+    start_year: 2024
+    end_year: null
+    description: "The fourth-generation X3 G45 was unveiled on 19 June 2024, with sales commenced in late 2024 for the 2025 model year in North American and European markets. For the first time in X3 history, a long-wheelbase version (G48) was introduced exclusively for the Chinese market. Unlike the previous generation, BMW decided not to produce a high-performance X3 M variant, instead focusing the M brand on the battery-electric iX3. The G45 features BMW's curved display with iDrive 8.5, enhanced driver assistance systems, updated exterior design language, improved aerodynamics, and advanced connectivity features. Engine options include turbocharged four and six-cylinder petrol engines, plug-in hybrid variants, and the all-electric iX3, demonstrating BMW's commitment to electrification while maintaining performance and luxury standards."
