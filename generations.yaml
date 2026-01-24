@@ -14,8 +14,13 @@ generations:
 
   - name: "Third Generation (G01)"
     start_year: 2017
+    end_year: 2021
+    description: "The G01 X3 builds on its predecessors' success with more refined styling, enhanced technology, and improved performance. Built on BMW's CLAR platform, it offers a range of powertrains from efficient four-cylinders to the high-performance X3 M with up to 503 HP. The lineup expanded to include a plug-in hybrid variant (xDrive30e) and the all-electric iX3 in some markets. The interior features higher quality materials, larger displays, and advanced connectivity options. Throughout its evolution, the X3 has grown from a niche offering to one of BMW's global best-sellers, balancing practicality, technology, and driving dynamics in the highly competitive premium compact SUV segment."
+
+  - name: "Third Generation (G01 Facelift)"
+    start_year: 2021
     end_year: 2024
-    description: "The current X3 builds on its predecessors' success with more refined styling, enhanced technology, and improved performance. Built on BMW's CLAR platform, it offers a range of powertrains from efficient four-cylinders to the high-performance X3 M with up to 503 HP. The lineup expanded to include a plug-in hybrid variant (xDrive30e) and the all-electric iX3 in some markets. The interior features higher quality materials, larger displays, and advanced connectivity options. A facelift in 2021 updated the exterior styling and interior technology. Throughout its evolution, the X3 has grown from a niche offering to one of BMW's global best-sellers, balancing practicality, technology, and driving dynamics in the highly competitive premium compact SUV segment."
+    description: "In June 2021, BMW introduced a mid-life refresh for the G01 X3, with production beginning in July 2021 for the 2022 model year. The facelift updated the exterior styling with redesigned headlights receiving slight tinting and completely redone taillights. The front bumper was redesigned, and a 12.3-inch infotainment system became available for all trim levels. The interior technology was enhanced while maintaining the refined driving dynamics and comprehensive powertrain options that characterized the earlier G01 generation. This refresh kept the G01 competitive throughout the remainder of its production run before the next-generation G45 launch."
 
   - name: "Fourth Generation (G45)"
     start_year: 2024
