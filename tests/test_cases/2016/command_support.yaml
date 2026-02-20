@@ -65,10 +65,6 @@ supported_commands_by_ecu:
   - 010D:VSS
   - 0111:TP
   - 011C:OBDSUP
-  - 0121:MIL_DIST
-  - 0130:WARM_UPS
-  - 0131:CLR_DIST
-  - 0142:VPWR
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.619.22DB32|e=19,fc=1:X3_AXLE_FRONT_ACTUAL_TORQUE,X3_AXLE_FRONT_SETPOINT_TORQUE
