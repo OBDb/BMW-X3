@@ -12,4 +12,20 @@ test_cases:
   response: 618F10562DA2E0003
 - expected_values:
     X3_GEAR_SHIFT: PARK
+  response: 618F10562DA2E0004
+- expected_values:
+    X3_GEAR: SPORT
+    X3_GEAR_SHIFT: PARK
+  response: 618F10562DA2E0005
+- expected_values:
+    X3_GEAR_SHIFT: PARK
   response: 618F10562DA2E0006
+- expected_values:
+    X3_GEAR_SHIFT: PARK
+  response: 618F10562DA2E0007
+- expected_values:
+    X3_GEAR_SHIFT: PARK
+  response: 618F10562DA2E0008
+- expected_values:
+    X3_GEAR_SHIFT: PARK
+  response: 618F10562DA2E000A
