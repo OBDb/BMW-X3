@@ -1,0 +1,23 @@
+command_id: 6F1.660.22D112|e=60,fc=1
+test_cases:
+- expected_values:
+    X3_AAT: 3
+  response: 660F10562D1125657
+- expected_values:
+    X3_AAT: 3.5
+  response: 660F10562D1125757
+- expected_values:
+    X3_AAT: 4
+  response: 660F10562D1125858
+- expected_values:
+    X3_AAT: 5
+  response: 660F10562D1125A5C
+- expected_values:
+    X3_AAT: 5
+  response: 660F10562D1125A5D
+- expected_values:
+    X3_AAT: 5
+  response: 660F10562D1125A5E
+- expected_values:
+    X3_AAT: 5
+  response: 660F10562D1125A5F
