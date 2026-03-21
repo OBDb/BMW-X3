@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_EOT: 16
   response: 618F10562DA250040
+- expected_values:
+    X3_EOT: 87
+  response: 618F10562DA250087
