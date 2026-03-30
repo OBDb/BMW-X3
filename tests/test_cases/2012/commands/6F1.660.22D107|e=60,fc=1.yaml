@@ -4,8 +4,8 @@ test_cases:
     X3_VSS: 0
   response: 660F10562D1070000
 - expected_values:
-    X3_VSS: 76.7
-  response: 660F10562D10702FF
+    X3_VSS: 51.1
+  response: 660F10562D10701FF
 - expected_values:
     X3_VSS: 153.9
   response: 660F10562D1070603
