@@ -4,5 +4,5 @@ test_cases:
     X3_EOT: 43
   response: 618F10562DA25005B
 - expected_values:
-    X3_EOT: 109
-  response: 618F10562DA25009D
+    X3_EOT: 110
+  response: 618F10562DA25009E
