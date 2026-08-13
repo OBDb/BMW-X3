@@ -7,5 +7,11 @@ test_cases:
     X3_TQ_CNVRT_LOCKUP: CONTROL_LOW
   response: 618F10562DA220001
 - expected_values:
+    X3_TQ_CNVRT_LOCKUP: CONTROL_HIGH
+  response: 618F10562DA220002
+- expected_values:
     X3_TQ_CNVRT_LOCKUP: CLOSED_LOW
   response: 618F10562DA220003
+- expected_values:
+    X3_TQ_CNVRT_LOCKUP: CLOSED_HIGH
+  response: 618F10562DA220004

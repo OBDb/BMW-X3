@@ -18,3 +18,9 @@ test_cases:
   response: |-
     660F1100B62D10D0001
     660F121B6900001B690
+- expected_values:
+    X3_ODO: 112288
+    X3_ODO_ALT: 112288
+  response: |-
+    660F1100B62D10D0001
+    660F121B6A00001B6A0
