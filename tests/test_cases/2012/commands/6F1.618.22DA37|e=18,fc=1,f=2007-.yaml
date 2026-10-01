@@ -1,0 +1,34 @@
+command_id: 6F1.618.22DA37|e=18,fc=1,f=2007-
+test_cases:
+- expected_values:
+    X3_TIME_D: 0
+    X3_TIME_M: 33
+    X3_TIME_S: 86
+  response: |-
+    618F1100F62DA370056
+    618F12121F2000B72F2
+    618F1220000017BFFFF
+- expected_values:
+    X3_TIME_D: 0
+    X3_TIME_M: 36
+    X3_TIME_S: 86
+  response: |-
+    618F1100F62DA370056
+    618F1212460000B72F2
+    618F1220000017BFFFF
+- expected_values:
+    X3_TIME_D: 0
+    X3_TIME_M: 37
+    X3_TIME_S: 86
+  response: |-
+    618F1100F62DA370056
+    618F121252C000B72F2
+    618F1220000017BFFFF
+- expected_values:
+    X3_TIME_D: 0
+    X3_TIME_M: 37
+    X3_TIME_S: 86
+  response: |-
+    618F1100F62DA370056
+    618F1212539000B72F2
+    618F1220000017BFFFF
