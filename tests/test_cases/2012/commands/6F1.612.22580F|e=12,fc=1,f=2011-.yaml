@@ -1,0 +1,26 @@
+command_id: 6F1.612.22580F|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_IAT_DME: 4.5
+  response: 612F10462580F46
+- expected_values:
+    X3_IAT_DME: 5.25
+  response: 612F10462580F47
+- expected_values:
+    X3_IAT_DME: 6.75
+  response: 612F10462580F49
+- expected_values:
+    X3_IAT_DME: 9
+  response: 612F10462580F4C
+- expected_values:
+    X3_IAT_DME: 9.75
+  response: 612F10462580F4D
+- expected_values:
+    X3_IAT_DME: 11.25
+  response: 612F10462580F4F
+- expected_values:
+    X3_IAT_DME: 12
+  response: 612F10462580F50
+- expected_values:
+    X3_IAT_DME: 18
+  response: 612F10462580F58
