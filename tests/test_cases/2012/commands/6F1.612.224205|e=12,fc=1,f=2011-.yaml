@@ -7,6 +7,9 @@ test_cases:
     X3_BOOST_P: 4.00781
   response: 612F1056242050201
 - expected_values:
+    X3_BOOST_P: 4.30469
+  response: 612F1056242050227
+- expected_values:
     X3_BOOST_P: 4.5
   response: 612F1056242050240
 - expected_values:
@@ -15,6 +18,9 @@ test_cases:
 - expected_values:
     X3_BOOST_P: 4.69531
   response: 612F1056242050259
+- expected_values:
+    X3_BOOST_P: 4.78906
+  response: 612F1056242050265
 - expected_values:
     X3_BOOST_P: 4.89062
   response: 612F1056242050272
