@@ -1,6 +1,12 @@
 command_id: 6F1.612.224201|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    X3_BARO: 47.66406
+  response: 612F1056242012FAA
+- expected_values:
+    X3_BARO: 47.67188
+  response: 612F1056242012FAC
+- expected_values:
     X3_BARO: 47.83203
   response: 612F1056242012FD5
 - expected_values:

@@ -1,6 +1,9 @@
 command_id: 6F1.612.224A2D|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    X3_MAP: 192.30469
+  response: 612F105624A2D6027
+- expected_values:
     X3_MAP: 192.82031
   response: 612F105624A2D6069
 - expected_values:
@@ -9,6 +12,9 @@ test_cases:
 - expected_values:
     X3_MAP: 193.21094
   response: 612F105624A2D609B
+- expected_values:
+    X3_MAP: 193.57812
+  response: 612F105624A2D60CA
 - expected_values:
     X3_MAP: 193.64844
   response: 612F105624A2D60D3

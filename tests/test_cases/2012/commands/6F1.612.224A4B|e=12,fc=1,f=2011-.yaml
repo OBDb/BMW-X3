@@ -7,6 +7,9 @@ test_cases:
     X3_LOAD_2: 0.39216
   response: 612F104624A4B01
 - expected_values:
+    X3_LOAD_2: 5.09804
+  response: 612F104624A4B0D
+- expected_values:
     X3_LOAD_2: 32.94118
   response: 612F104624A4B54
 - expected_values:
@@ -24,3 +27,6 @@ test_cases:
 - expected_values:
     X3_LOAD_2: 65.09804
   response: 612F104624A4BA6
+- expected_values:
+    X3_LOAD_2: 84.31373
+  response: 612F104624A4BD7
