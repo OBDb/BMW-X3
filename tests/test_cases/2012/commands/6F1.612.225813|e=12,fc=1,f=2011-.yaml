@@ -16,5 +16,8 @@ test_cases:
     X3_LOAD: 9
   response: 612F1046258130C
 - expected_values:
+    X3_LOAD: 11.25
+  response: 612F1046258130F
+- expected_values:
     X3_LOAD: 12
   response: 612F10462581310
