@@ -11,6 +11,11 @@ test_cases:
     678F1100862D85C1B20
     678F12123000BFFFFFF
 - expected_values:
+    X3_CABIN_T: 27
+  response: |-
+    678F1100862D85C1B20
+    678F121250002FFFFFF
+- expected_values:
     X3_CABIN_T: 28
   response: |-
     678F1100862D85C1C20

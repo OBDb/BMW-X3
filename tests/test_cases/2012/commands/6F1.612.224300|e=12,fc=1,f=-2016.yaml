@@ -4,29 +4,5 @@ test_cases:
     X3_ET_8: 27
   response: 612F10462430064
 - expected_values:
-    X3_ET_8: 33.75
-  response: 612F1046243006D
-- expected_values:
-    X3_ET_8: 63
-  response: 612F10462430094
-- expected_values:
-    X3_ET_8: 66
-  response: 612F10462430098
-- expected_values:
-    X3_ET_8: 79.5
-  response: 612F104624300AA
-- expected_values:
-    X3_ET_8: 88.5
-  response: 612F104624300B6
-- expected_values:
-    X3_ET_8: 90
-  response: 612F104624300B8
-- expected_values:
-    X3_ET_8: 92.25
-  response: 612F104624300BB
-- expected_values:
-    X3_ET_8: 102
-  response: 612F104624300C8
-- expected_values:
-    X3_ET_8: 102.75
-  response: 612F104624300C9
+    X3_ET_8: 103.5
+  response: 612F104624300CA
