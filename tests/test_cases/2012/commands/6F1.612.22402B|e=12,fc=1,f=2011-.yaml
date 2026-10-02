@@ -1,6 +1,17 @@
 command_id: 6F1.612.22402B|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    X3_12V_A: -3.36
+    X3_12V_T: 27
+    X3_12V_V: 14.786
+  response: |-
+    612F1101F62402B010E
+    612F1218948099A0008
+    612F122000000000000
+    612F123FFFFFFFFFFFF
+    612F124FFFF00010000
+    612F1250000FFFFFFFF
+- expected_values:
     X3_12V_A: -5.44
     X3_12V_T: 27
     X3_12V_V: 14.851

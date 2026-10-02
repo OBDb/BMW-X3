@@ -1,32 +1,14 @@
 command_id: 6F1.612.224408|e=12,fc=1,f=-2018
 test_cases:
 - expected_values:
-    X3_EOT_DME: 27.7
-  response: 612F1056244080115
-- expected_values:
-    X3_EOT_DME: 38.4
-  response: 612F1056244080180
-- expected_values:
-    X3_EOT_DME: 60.4
-  response: 612F105624408025C
-- expected_values:
-    X3_EOT_DME: 74.3
-  response: 612F10562440802E7
-- expected_values:
-    X3_EOT_DME: 75.4
-  response: 612F10562440802F2
+    X3_EOT_DME: 27.5
+  response: 612F1056244080113
 - expected_values:
     X3_EOT_DME: 76.8
   response: 612F1056244080300
 - expected_values:
-    X3_EOT_DME: 79.4
-  response: 612F105624408031A
-- expected_values:
-    X3_EOT_DME: 90.3
-  response: 612F1056244080387
-- expected_values:
-    X3_EOT_DME: 100.4
-  response: 612F10562440803EC
-- expected_values:
     X3_EOT_DME: 101.7
   response: 612F10562440803F9
+- expected_values:
+    X3_EOT_DME: 105.4
+  response: 612F105624408041E

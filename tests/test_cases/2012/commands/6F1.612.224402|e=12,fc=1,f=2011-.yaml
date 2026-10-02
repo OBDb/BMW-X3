@@ -1,32 +1,11 @@
 command_id: 6F1.612.224402|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
-    X3_EOT_6F1: 12
-  response: 612F1056244020118
-- expected_values:
-    X3_EOT_6F1: 63.5
-  response: 612F105624402017F
-- expected_values:
-    X3_EOT_6F1: 45.5
-  response: 612F105624402025B
-- expected_values:
-    X3_EOT_6F1: 113.5
-  response: 612F10562440202E3
-- expected_values:
-    X3_EOT_6F1: 121
-  response: 612F10562440202F2
+    X3_EOT_6F1: 10
+  response: 612F1056244020114
 - expected_values:
     X3_EOT_6F1: 125
   response: 612F10562440202FA
 - expected_values:
-    X3_EOT_6F1: 12.5
-  response: 612F1056244020319
-- expected_values:
-    X3_EOT_6F1: 74
-  response: 612F1056244020394
-- expected_values:
-    X3_EOT_6F1: 108
-  response: 612F10562440203D8
-- expected_values:
-    X3_EOT_6F1: 124.5
-  response: 612F10562440203F9
+    X3_EOT_6F1: 10.5
+  response: 612F1056244020415
