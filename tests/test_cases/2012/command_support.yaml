@@ -177,3 +177,5 @@ unsupported_commands_by_ecu:
   - 6F1.660.22D12A|e=60,fc=1,f=2011-:X3_CONS_KWH_100KM
   - 6F1.678.22D8C5|e=78,fc=1,f=2011-:X3_COMP_STATE
   - 6F1.678.22D91A|e=78,fc=1,f=2011-:X3_AIR_DIST_L,X3_AIR_DIST_R
+  "7E1":
+  - 7E1.7E9.010C
