@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_IGN_TIMING_1: -15.6
   response: 612F105624A49FF64
+- expected_values:
+    X3_IGN_TIMING_1: -9.6
+  response: 612F105624A49FFA0

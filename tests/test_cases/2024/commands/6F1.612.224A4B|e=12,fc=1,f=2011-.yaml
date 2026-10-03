@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_LOAD_2: 15.29412
   response: 612F104624A4B27
+- expected_values:
+    X3_LOAD_2: 16.86275
+  response: 612F104624A4B2B

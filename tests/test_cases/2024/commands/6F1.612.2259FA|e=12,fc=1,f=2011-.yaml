@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_IGN_ANGLE: -15.75
   response: 612F1046259FAEB
+- expected_values:
+    X3_IGN_ANGLE: -14.25
+  response: 612F1046259FAED

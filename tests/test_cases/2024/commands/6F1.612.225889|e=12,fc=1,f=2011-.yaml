@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_LAMBDA_6F1: 0.99733
   response: 612F1056258890FF5
+- expected_values:
+    X3_LAMBDA_6F1: 1.00172
+  response: 612F1056258891007
