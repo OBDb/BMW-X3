@@ -1,0 +1,8 @@
+command_id: 6F1.612.22400B|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_LAMBDA: 0.98
+  response: |-
+    612F1100F62400B0190
+    612F12101910062007E
+    612F122F7A10008FFFF

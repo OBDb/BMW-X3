@@ -1,0 +1,5 @@
+command_id: 6F1.612.22580F|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_IAT_DME: 65.25
+  response: 612F10462580F97

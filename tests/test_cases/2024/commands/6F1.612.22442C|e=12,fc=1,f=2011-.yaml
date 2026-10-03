@@ -1,0 +1,5 @@
+command_id: 6F1.612.22442C|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_OIL_LEVEL: 83
+  response: 612F10462442C53
