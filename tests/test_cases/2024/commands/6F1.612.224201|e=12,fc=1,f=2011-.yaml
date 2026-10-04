@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_BARO: 99.48047
   response: 612F105624201637B
+- expected_values:
+    X3_BARO: 99.89844
+  response: 612F10562420163E6

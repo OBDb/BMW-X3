@@ -1,6 +1,9 @@
 command_id: 6F1.612.2258BA|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    X3_CRANK_TQ: 38.1
+  response: 612F1056258BA017D
+- expected_values:
     X3_CRANK_TQ: 63.4
   response: 612F1056258BA027A
 - expected_values:

@@ -1,6 +1,9 @@
 command_id: 6F1.612.224A4A|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    X3_IGN_TIMING_2: 11.5
+  response: 612F105624A4A0073
+- expected_values:
     X3_IGN_TIMING_2: -16
   response: 612F105624A4AFF60
 - expected_values:
