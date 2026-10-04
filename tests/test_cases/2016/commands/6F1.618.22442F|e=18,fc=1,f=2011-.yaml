@@ -4,8 +4,8 @@ test_cases:
     X3_ENG_TQ_6F1: 3
   response: 618F10562442F0003
 - expected_values:
-    X3_ENG_TQ_6F1: 65487
-  response: 618F10562442FFFCF
+    X3_ENG_TQ_6F1: 65481
+  response: 618F10562442FFFC9
 - expected_values:
-    X3_ENG_TQ_6F1: 65523
-  response: 618F10562442FFFF3
+    X3_ENG_TQ_6F1: 65534
+  response: 618F10562442FFFFE
