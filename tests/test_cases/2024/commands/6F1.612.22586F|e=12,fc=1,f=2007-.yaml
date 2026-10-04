@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_EOP: 2.521
   response: 612F10562586F09D9
+- expected_values:
+    X3_EOP: 2.582
+  response: 612F10562586F0A16
