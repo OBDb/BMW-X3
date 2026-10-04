@@ -1,0 +1,11 @@
+command_id: 6F1.618.22442F|e=18,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_ENG_TQ_6F1: 3
+  response: 618F10562442F0003
+- expected_values:
+    X3_ENG_TQ_6F1: 65487
+  response: 618F10562442FFFCF
+- expected_values:
+    X3_ENG_TQ_6F1: 65523
+  response: 618F10562442FFFF3

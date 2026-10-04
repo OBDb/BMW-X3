@@ -1,0 +1,8 @@
+command_id: 6F1.618.22DA12|e=18,fc=1,f=2007-
+test_cases:
+- expected_values:
+    X3_ATF_TEMP: 28
+  response: 618F10562DA12004C
+- expected_values:
+    X3_ATF_TEMP: 49
+  response: 618F10562DA120061
