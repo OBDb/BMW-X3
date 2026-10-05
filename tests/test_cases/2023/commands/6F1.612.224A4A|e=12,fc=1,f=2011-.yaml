@@ -1,0 +1,14 @@
+command_id: 6F1.612.224A4A|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_IGN_TIMING_2: 8.5
+  response: 612F105624A4A0055
+- expected_values:
+    X3_IGN_TIMING_2: 21.5
+  response: 612F105624A4A00D7
+- expected_values:
+    X3_IGN_TIMING_2: 27
+  response: 612F105624A4A010E
+- expected_values:
+    X3_IGN_TIMING_2: -5.1
+  response: 612F105624A4AFFCD

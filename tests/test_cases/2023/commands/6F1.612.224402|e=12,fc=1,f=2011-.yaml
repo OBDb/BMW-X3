@@ -1,0 +1,14 @@
+command_id: 6F1.612.224402|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_EOT_6F1: 70.5
+  response: 612F105624402008D
+- expected_values:
+    X3_EOT_6F1: 76.5
+  response: 612F1056244020099
+- expected_values:
+    X3_EOT_6F1: 88
+  response: 612F10562440200B0
+- expected_values:
+    X3_EOT_6F1: 92
+  response: 612F10562440200B8

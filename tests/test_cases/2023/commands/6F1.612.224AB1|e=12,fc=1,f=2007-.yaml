@@ -1,0 +1,14 @@
+command_id: 6F1.612.224AB1|e=12,fc=1,f=2007-
+test_cases:
+- expected_values:
+    X3_VSS2: 18.83
+  response: 612F105624AB1075B
+- expected_values:
+    X3_VSS2: 22.6
+  response: 612F105624AB108D4
+- expected_values:
+    X3_VSS2: 24.03
+  response: 612F105624AB10963
+- expected_values:
+    X3_VSS2: 46.48
+  response: 612F105624AB11228
