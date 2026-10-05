@@ -4,6 +4,12 @@ test_cases:
     X3_IGN_TIMING_2: 8.5
   response: 612F105624A4A0055
 - expected_values:
+    X3_IGN_TIMING_2: 13.5
+  response: 612F105624A4A0087
+- expected_values:
+    X3_IGN_TIMING_2: 17
+  response: 612F105624A4A00AA
+- expected_values:
     X3_IGN_TIMING_2: 21.5
   response: 612F105624A4A00D7
 - expected_values:

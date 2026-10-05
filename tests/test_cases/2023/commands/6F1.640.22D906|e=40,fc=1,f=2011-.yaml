@@ -5,6 +5,14 @@ test_cases:
     X3_AC_COMP_STAT: 1
   response: 640F10662D906000135
 - expected_values:
+    X3_AC_COMP_PWM: 62
+    X3_AC_COMP_STAT: 1
+  response: 640F10662D90600013E
+- expected_values:
+    X3_AC_COMP_PWM: 64
+    X3_AC_COMP_STAT: 1
+  response: 640F10662D906000140
+- expected_values:
     X3_AC_COMP_PWM: 76
     X3_AC_COMP_STAT: 1
   response: 640F10662D90600014C
