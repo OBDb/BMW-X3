@@ -1,0 +1,20 @@
+command_id: 6F1.60D.22D240|e=0D,fc=1,f=2021-
+test_cases:
+- expected_values:
+    X3_VSS_INSTR: 2
+  response: 60DF10562D2400002
+- expected_values:
+    X3_VSS_INSTR: 5
+  response: 60DF10562D2400005
+- expected_values:
+    X3_VSS_INSTR: 8
+  response: 60DF10562D2400008
+- expected_values:
+    X3_VSS_INSTR: 15
+  response: 60DF10562D240000F
+- expected_values:
+    X3_VSS_INSTR: 22
+  response: 60DF10562D2400016
+- expected_values:
+    X3_VSS_INSTR: 46
+  response: 60DF10562D240002E

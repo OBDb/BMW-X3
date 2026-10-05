@@ -1,0 +1,11 @@
+command_id: 6F1.678.22D96B|e=78,fc=1,f=2011-2017
+test_cases:
+- expected_values:
+    X3_IHX_AAT: 26.5
+  response: 678F10562D96B0085
+- expected_values:
+    X3_IHX_AAT: 27.5
+  response: 678F10562D96B0087
+- expected_values:
+    X3_IHX_AAT: 29.5
+  response: 678F10562D96B008B

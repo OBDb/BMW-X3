@@ -1,0 +1,17 @@
+command_id: 6F1.612.2259FA|e=12,fc=1,f=2021-
+test_cases:
+- expected_values:
+    X3_IGN_ANGLE: 2.25
+  response: 612F1046259FA03
+- expected_values:
+    X3_IGN_ANGLE: 5.25
+  response: 612F1046259FA07
+- expected_values:
+    X3_IGN_ANGLE: 8.25
+  response: 612F1046259FA0B
+- expected_values:
+    X3_IGN_ANGLE: 13.5
+  response: 612F1046259FA12
+- expected_values:
+    X3_IGN_ANGLE: -4.5
+  response: 612F1046259FAFA
