@@ -1,0 +1,8 @@
+command_id: 6F1.612.224300|e=12,fc=1,f=2017-
+test_cases:
+- expected_values:
+    X3_ET: 71.15
+  response: 612F1056243000D73
+- expected_values:
+    X3_ET: 98.95
+  response: 612F1056243000E89

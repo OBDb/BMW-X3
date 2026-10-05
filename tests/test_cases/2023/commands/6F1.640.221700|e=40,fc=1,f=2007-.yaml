@@ -1,0 +1,12 @@
+command_id: 6F1.640.221700|e=40,fc=1,f=2007-
+test_cases:
+- expected_values:
+    X3_ODO_2: 27675
+  response: |-
+    640F110076217000000
+    640F1216C1BFFFFFFFF
+- expected_values:
+    X3_ODO_2: 27685
+  response: |-
+    640F110076217000000
+    640F1216C25FFFFFFFF

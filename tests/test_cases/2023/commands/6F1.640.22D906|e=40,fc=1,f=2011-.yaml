@@ -1,0 +1,18 @@
+command_id: 6F1.640.22D906|e=40,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_AC_COMP_PWM: 53
+    X3_AC_COMP_STAT: 1
+  response: 640F10662D906000135
+- expected_values:
+    X3_AC_COMP_PWM: 76
+    X3_AC_COMP_STAT: 1
+  response: 640F10662D90600014C
+- expected_values:
+    X3_AC_COMP_PWM: 91
+    X3_AC_COMP_STAT: 1
+  response: 640F10662D90600015B
+- expected_values:
+    X3_AC_COMP_PWM: 94
+    X3_AC_COMP_STAT: 1
+  response: 640F10662D90600015E
