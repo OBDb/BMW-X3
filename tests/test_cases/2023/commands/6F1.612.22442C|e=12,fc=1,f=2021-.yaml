@@ -1,0 +1,20 @@
+command_id: 6F1.612.22442C|e=12,fc=1,f=2021-
+test_cases:
+- expected_values:
+    X3_OIL_LEVEL: 79
+  response: 612F10462442C4F
+- expected_values:
+    X3_OIL_LEVEL: 82
+  response: 612F10462442C52
+- expected_values:
+    X3_OIL_LEVEL: 89
+  response: 612F10462442C59
+- expected_values:
+    X3_OIL_LEVEL: 90
+  response: 612F10462442C5A
+- expected_values:
+    X3_OIL_LEVEL: 91
+  response: 612F10462442C5B
+- expected_values:
+    X3_OIL_LEVEL: 94
+  response: 612F10462442C5E

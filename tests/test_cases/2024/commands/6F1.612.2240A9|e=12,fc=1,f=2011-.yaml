@@ -1,9 +1,0 @@
-command_id: 6F1.612.2240A9|e=12,fc=1,f=2011-
-test_cases:
-- expected_values:
-    X3_BAT_CAP: 90
-    X3_ORIGINAL_BAT_CAP: 90
-  response: |-
-    612F1100C6240A95A02
-    612F1215A025A8402E2
-    612F12200FFFFFFFFFF

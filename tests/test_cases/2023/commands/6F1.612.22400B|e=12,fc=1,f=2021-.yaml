@@ -1,0 +1,38 @@
+command_id: 6F1.612.22400B|e=12,fc=1,f=2021-
+test_cases:
+- expected_values:
+    X3_LAMBDA: 2
+  response: |-
+    612F1100F62400B017D
+    612F121017A00EC008B
+    612F122F7870008FFFF
+- expected_values:
+    X3_LAMBDA: 0.79
+  response: |-
+    612F1100F62400B02F2
+    612F12102D8024F008E
+    612F122F8EE0008FFFF
+- expected_values:
+    X3_LAMBDA: 0
+  response: |-
+    612F1100F62400B059A
+    612F121057B0400008A
+    612F122FB900008FFFF
+- expected_values:
+    X3_LAMBDA: 0.79
+  response: |-
+    612F1100F62400B05EE
+    612F1210622034F0089
+    612F122FC2F0008FFFF
+- expected_values:
+    X3_LAMBDA: 0.39
+  response: |-
+    612F1100F62400B06BB
+    612F12106AB0127008E
+    612F122FCC10008FFFF
+- expected_values:
+    X3_LAMBDA: 1.37
+  response: |-
+    612F1100F62400B08FE
+    612F12108F50089008B
+    612F122FF0A0008FFFF
