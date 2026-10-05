@@ -5,3 +5,8 @@ test_cases:
   response: |-
     612F1100762558F0000
     612F121067AFFFFFFFF
+- expected_values:
+    X3_ENG_HOURS: 829.5
+  response: |-
+    612F1100762558F0000
+    612F121067BFFFFFFFF

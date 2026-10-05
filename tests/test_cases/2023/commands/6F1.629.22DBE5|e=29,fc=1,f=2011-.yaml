@@ -7,6 +7,12 @@ test_cases:
     629F121000000000000
     629F12200000000FFFF
 - expected_values:
+    X3_BRAKE_P: 0.6
+  response: |-
+    629F1100F62DBE50006
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
     X3_BRAKE_P: 1.7
   response: |-
     629F1100F62DBE50011

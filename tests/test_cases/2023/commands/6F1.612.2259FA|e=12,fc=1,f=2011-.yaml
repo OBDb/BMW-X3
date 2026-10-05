@@ -1,6 +1,9 @@
 command_id: 6F1.612.2259FA|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    X3_IGN_ANGLE: 2.25
+  response: 612F1046259FA03
+- expected_values:
     X3_IGN_ANGLE: 5.25
   response: 612F1046259FA07
 - expected_values:

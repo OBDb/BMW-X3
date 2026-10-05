@@ -4,8 +4,14 @@ test_cases:
     X3_CRANK_TQ: 71
   response: 612F1056258BA02C6
 - expected_values:
+    X3_CRANK_TQ: 77.9
+  response: 612F1056258BA030B
+- expected_values:
     X3_CRANK_TQ: 102.8
   response: 612F1056258BA0404
+- expected_values:
+    X3_CRANK_TQ: 137.7
+  response: 612F1056258BA0561
 - expected_values:
     X3_CRANK_TQ: 165.8
   response: 612F1056258BA067A

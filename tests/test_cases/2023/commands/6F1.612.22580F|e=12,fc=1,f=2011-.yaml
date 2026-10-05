@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     X3_IAT_DME: 57.75
   response: 612F10462580F8D
+- expected_values:
+    X3_IAT_DME: 58.5
+  response: 612F10462580F8E
+- expected_values:
+    X3_IAT_DME: 59.25
+  response: 612F10462580F8F

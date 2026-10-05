@@ -4,8 +4,14 @@ test_cases:
     X3_MAP: 93.1875
   response: 612F105624A2D2E98
 - expected_values:
+    X3_MAP: 94.11719
+  response: 612F105624A2D2F0F
+- expected_values:
     X3_MAP: 97.96094
   response: 612F105624A2D30FB
+- expected_values:
+    X3_MAP: 102.90625
+  response: 612F105624A2D3374
 - expected_values:
     X3_MAP: 105.125
   response: 612F105624A2D3490

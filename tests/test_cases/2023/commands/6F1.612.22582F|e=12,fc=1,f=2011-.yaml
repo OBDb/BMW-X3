@@ -4,6 +4,12 @@ test_cases:
     X3_CAT_T: 91.15
   response: 612F10562582F0E3B
 - expected_values:
+    X3_CAT_T: 448.55
+  response: 612F10562582F1C31
+- expected_values:
+    X3_CAT_T: 522.85
+  response: 612F10562582F1F18
+- expected_values:
     X3_CAT_T: 527.65
   response: 612F10562582F1F48
 - expected_values:
