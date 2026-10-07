@@ -4,5 +4,5 @@ test_cases:
     X3_ET_8: 27
   response: 612F10462430064
 - expected_values:
-    X3_ET_8: 103.5
-  response: 612F104624300CA
+    X3_ET_8: 105.75
+  response: 612F104624300CD
