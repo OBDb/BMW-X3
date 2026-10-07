@@ -58,7 +58,7 @@
   "signals": [
     {"id": "X3_ET_8", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "years": [2018, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "X3_ET", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
@@ -70,7 +70,7 @@
   "signals": [
     {"id": "X3_EOT_DME", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4408"}, "freq": 5, "filter": { "from": 2019 }, "dbgfilter": { "years": [2020, 2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4408"}, "freq": 5, "filter": { "from": 2019 }, "dbgfilter": { "years": [2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "X3_EOT_DME_K", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -264,7 +264,7 @@
   "signals": [
     {"id": "X3_CLU_LOCK_UP", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Clutch lock-up speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "442F"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "442F"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "X3_ENG_TQ_6F1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
@@ -296,7 +296,7 @@
   "signals": [
     {"id": "X3_EOT", "path": "Engine", "fmt": { "len": 16, "max": 65487, "min": -48, "add": -48, "nullmax": 65487, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021], "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021], "from": 2025 },
   "signals": [
     {"id": "X3_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
   ]},
@@ -331,7 +331,7 @@
     {"id": "X3_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
     {"id": "X3_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, setpoint torque"}
   ]},
-{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "dbg": true, "cmd": {"22": "DFE7"}, "freq": 1, "filter": { "from": 2018 },
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DFE7"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "X3_VGT_CAL_ANGLE",   "path": "Engine", "fmt": {            "len": 16, "max": 1000,    "mul": 156.25, "div": 10000,                     "unit": "degrees"    }, "name": "Variable geometry turbocharger calibration angle"},
     {"id": "X3_OIL_CHANGE_DIST", "path": "Fluids", "fmt": {"bix": 304, "len": 32, "max": 1000000,                              "nullmax": 1000000, "unit": "kilometers" }, "name": "Distance since last oil change"}
@@ -395,11 +395,11 @@
     {"id": "X3_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "X3_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE5"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE5"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "X3_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "X3_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Front left tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "X3_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                           "name": "Front left tire pressure",                                      "suggestedMetric": "frontLeftTirePressure"},
@@ -408,7 +408,7 @@
     {"id": "X3_TPMS_RX_FL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, front left"},
     {"id": "X3_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                           "name": "Front left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "X3_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Front right tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "X3_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                            "name": "Front right tire pressure",                                     "suggestedMetric": "frontRightTirePressure"},
@@ -417,7 +417,7 @@
     {"id": "X3_TPMS_RX_FR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, front right"},
     {"id": "X3_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                            "name": "Front right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "X3_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Rear left tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "X3_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                          "name": "Rear left tire pressure",                                       "suggestedMetric": "rearLeftTirePressure"},
@@ -426,7 +426,7 @@
     {"id": "X3_TPMS_RX_RL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, rear left"},
     {"id": "X3_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                          "name": "Rear left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "X3_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Rear right tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "X3_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                           "name": "Rear right tire pressure",                                      "suggestedMetric": "rearRightTirePressure"},
@@ -435,11 +435,11 @@
     {"id": "X3_TPMS_RX_RR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, rear right"},
     {"id": "X3_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                           "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "X3_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "X3_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant", "suggestedMetric": "odometer"}
   ]},
@@ -447,7 +447,7 @@
   "signals": [
     {"id": "X3_PARK_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Parking brake applied"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D906"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D906"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "X3_AC_COMP_STAT", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar"  }, "name": "Air conditioning compressor status"},
     {"id": "X3_AC_COMP_PWM",  "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "percent" }, "name": "Air conditioning compressor PWM"}
