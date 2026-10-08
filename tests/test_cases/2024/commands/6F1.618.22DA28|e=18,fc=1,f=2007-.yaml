@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_BRAKE_SWITCH: 0
   response: 618F10562DA280000
+- expected_values:
+    X3_BRAKE_SWITCH: 1
+  response: 618F10562DA280001
