@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_EOT_DME_K: 14.55
   response: 612F1056244080B3D
+- expected_values:
+    X3_EOT_DME_K: 46.35
+  response: 612F1056244080C7B
