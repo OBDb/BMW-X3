@@ -1,0 +1,10 @@
+command_id: 6F1.618.22DA37|e=18,fc=1,f=2024-;-2017
+test_cases:
+- expected_values:
+    X3_TIME_D: 0
+    X3_TIME_M: 154
+    X3_TIME_S: 65
+  response: |-
+    618F1100F62DA370041
+    618F1219AD50000AD7C
+    618F12200000132FFFF
