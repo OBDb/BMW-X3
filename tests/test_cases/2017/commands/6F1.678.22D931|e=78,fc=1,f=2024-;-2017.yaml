@@ -1,0 +1,8 @@
+command_id: 6F1.678.22D931|e=78,fc=1,f=2024-;-2017
+test_cases:
+- expected_values:
+    X3_HVAC_RECIRC: 0
+  response: 678F10562D9310000
+- expected_values:
+    X3_HVAC_RECIRC: 0
+  response: 678F10562D9310001
