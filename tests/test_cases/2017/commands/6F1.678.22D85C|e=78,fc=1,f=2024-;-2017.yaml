@@ -1,0 +1,37 @@
+command_id: 6F1.678.22D85C|e=78,fc=1,f=2024-;-2017
+test_cases:
+- expected_values:
+    X3_CABIN_T: 17
+  response: |-
+    678F1100862D85C1112
+    678F121130002FFFFFF
+- expected_values:
+    X3_CABIN_T: 18
+  response: |-
+    678F1100862D85C1212
+    678F121130000FFFFFF
+- expected_values:
+    X3_CABIN_T: 30
+  response: |-
+    678F1100862D85C1E21
+    678F121200004FFFFFF
+- expected_values:
+    X3_CABIN_T: 33
+  response: |-
+    678F1100862D85C2122
+    678F1211F0015FFFFFF
+- expected_values:
+    X3_CABIN_T: 35
+  response: |-
+    678F1100862D85C2324
+    678F12124000BFFFFFF
+- expected_values:
+    X3_CABIN_T: 38
+  response: |-
+    678F1100862D85C2630
+    678F121340015FFFFFF
+- expected_values:
+    X3_CABIN_T: 48
+  response: |-
+    678F1100862D85C3034
+    678F121350013FFFFFF
