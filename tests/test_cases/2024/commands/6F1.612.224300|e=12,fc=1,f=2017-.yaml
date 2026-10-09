@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_ET: 17.45
   response: 612F1056243000B5A
+- expected_values:
+    X3_ET: 50.15
+  response: 612F1056243000CA1
