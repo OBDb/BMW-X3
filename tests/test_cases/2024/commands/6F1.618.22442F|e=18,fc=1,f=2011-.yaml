@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_ENG_TQ_6F1: 11
   response: 618F10562442F000B
+- expected_values:
+    X3_ENG_TQ_6F1: 65528
+  response: 618F10562442FFFF8
