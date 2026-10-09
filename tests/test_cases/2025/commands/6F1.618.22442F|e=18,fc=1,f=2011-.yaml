@@ -1,0 +1,29 @@
+command_id: 6F1.618.22442F|e=18,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_ENG_TQ_6F1: 0
+  response: 618F10562442F0000
+- expected_values:
+    X3_ENG_TQ_6F1: 1
+  response: 618F10562442F0001
+- expected_values:
+    X3_ENG_TQ_6F1: 54
+  response: 618F10562442F0036
+- expected_values:
+    X3_ENG_TQ_6F1: 64
+  response: 618F10562442F0040
+- expected_values:
+    X3_ENG_TQ_6F1: 78
+  response: 618F10562442F004E
+- expected_values:
+    X3_ENG_TQ_6F1: 108
+  response: 618F10562442F006C
+- expected_values:
+    X3_ENG_TQ_6F1: 157
+  response: 618F10562442F009D
+- expected_values:
+    X3_ENG_TQ_6F1: 65407
+  response: 618F10562442FFF7F
+- expected_values:
+    X3_ENG_TQ_6F1: 65535
+  response: 618F10562442FFFFF
