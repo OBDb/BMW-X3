@@ -122,7 +122,7 @@
   "signals": [
     {"id": "X3_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4C5B"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4C5B"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "X3_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
   ]},
@@ -264,11 +264,11 @@
   "signals": [
     {"id": "X3_CLU_LOCK_UP", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Clutch lock-up speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "442F"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "442F"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "X3_ENG_TQ_6F1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_ATF_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 65487, "min": -48, "add": -48, "nullmax": 65487, "unit": "celsius" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -296,7 +296,7 @@
   "signals": [
     {"id": "X3_EOT", "path": "Engine", "fmt": { "len": 16, "max": 65487, "min": -48, "add": -48, "nullmax": 65487, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021], "from": 2025 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2018, 2019, 2020, 2021], "from": 2025 },
   "signals": [
     {"id": "X3_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
   ]},
@@ -320,7 +320,7 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_TIME_D", "path": "Trips", "fmt": {           "len": 8, "max": 255, "nullmax": 255, "unit": "scalar" }, "name": "Time in drive"},
     {"id": "X3_TIME_S", "path": "Trips", "fmt": {"bix": 8,  "len": 8, "max": 255,                 "unit": "scalar" }, "name": "Time in sport"},
@@ -395,7 +395,7 @@
     {"id": "X3_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "X3_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE5"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE5"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "X3_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
@@ -435,7 +435,7 @@
     {"id": "X3_TPMS_RX_RR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, rear right"},
     {"id": "X3_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                           "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2018, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "X3_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
@@ -498,7 +498,7 @@
   "signals": [
     {"id": "X3_CONS_KWH_100KM", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Consumption, kwh/100km"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_NBT_WHL_SPD_1", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 1"},
     {"id": "X3_NBT_WHL_SPD_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 2"},
@@ -506,11 +506,11 @@
     {"id": "X3_NBT_WHL_SPD_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 4"},
     {"id": "X3_GPS_SPD",       "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Speed from satellite positioning"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 254, "nullmax": 254, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D85C"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D85C"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
@@ -523,19 +523,19 @@
     {"id": "X3_AIR_DIST_L", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, left"},
     {"id": "X3_AIR_DIST_R", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, right"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_HVAC_OFF", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Climate control off"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_HVAC_AUC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Automatic air recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_HVAC_RECIRC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D96B"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2017 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D96B"}, "freq": 5, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
     {"id": "X3_IHX_AAT", "path": "Engine", "fmt": { "len": 16, "max": 16343, "min": -16424, "div": 2, "add": -40, "sign": true, "unit": "celsius" }, "name": "Outside temperature, climate control"}
   ]}
