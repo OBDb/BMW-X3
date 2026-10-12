@@ -1,11 +1,11 @@
 command_id: 6F1.629.22DC99|e=29,fc=1,f=2021-
 test_cases:
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 81
+    X3_TP_FR: 2.126
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 41
   response: |-
     629F1101B62DC9952EB
     629F121863B01084E51
@@ -13,11 +13,11 @@ test_cases:
     629F123340008FF0000
     629F124FF050300FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 82
+    X3_TP_FR: 2.153
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 42
   response: |-
     629F1101B62DC9952EB
     629F121863B01086952
@@ -25,11 +25,11 @@ test_cases:
     629F1231F0008FF0000
     629F124FF050300FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 82
+    X3_TP_FR: 2.153
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 42
   response: |-
     629F1101B62DC9952EB
     629F121863B01086952
@@ -37,12 +37,11 @@ test_cases:
     629F123300008FF0000
     629F124FF050300FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_FR: -32.248
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 82
+    X3_TP_FR: 2.178
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 42
   response: |-
     629F1101B62DC9952EB
     629F121863B01088252
@@ -50,12 +49,11 @@ test_cases:
     629F123310008FF0000
     629F124FF050300FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_FR: -12.536
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 89
+    X3_TP_FR: 2.255
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 49
   response: |-
     629F1101B62DC9952EB
     629F121863B0108CF59
@@ -63,12 +61,11 @@ test_cases:
     629F123250008FF0000
     629F124FF050300FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_FR: -12.024
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 90
+    X3_TP_FR: 2.257
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 50
   response: |-
     629F1101B62DC9952EB
     629F121863B0108D15A
@@ -76,12 +73,11 @@ test_cases:
     629F123240008FF0000
     629F124FF050300FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_FR: -0.76
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 95
+    X3_TP_FR: 2.301
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 55
   response: |-
     629F1101B62DC9952EB
     629F121863B0108FD5F
@@ -89,11 +85,11 @@ test_cases:
     629F1232D0008FF0000
     629F124FF050500FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 96
+    X3_TP_FR: 2.332
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 56
   response: |-
     629F1101B62DC9952EB
     629F121863B01091C60
@@ -101,11 +97,11 @@ test_cases:
     629F123250008FF0000
     629F124FF050500FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2048
+    X3_TPMS_BAT_FR: 8
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_SET_FR: 10.25
-    X3_TT_FR: 106
+    X3_TP_FR: 2.428
+    X3_TP_SET_FR: 2.6
+    X3_TT_FR: 66
   response: |-
     629F1101B62DC9952EB
     629F121863B01097C6A
