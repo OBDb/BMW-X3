@@ -326,7 +326,7 @@
     {"id": "X3_TIME_S", "path": "Trips", "fmt": {"bix": 8,  "len": 8, "max": 255,                 "unit": "scalar" }, "name": "Time in sport"},
     {"id": "X3_TIME_M", "path": "Trips", "fmt": {"bix": 16, "len": 8, "max": 255,                 "unit": "scalar" }, "name": "Time in manual"}
   ]},
-{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2026 },
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "filter": { "to": 2010, "from": 2017 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "X3_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
     {"id": "X3_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, setpoint torque"}
@@ -452,7 +452,7 @@
     {"id": "X3_AC_COMP_STAT", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar"  }, "name": "Air conditioning compressor status"},
     {"id": "X3_AC_COMP_PWM",  "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "percent" }, "name": "Air conditioning compressor PWM"}
   ]},
-{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2026 },
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "filter": { "to": 2010, "from": 2017 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "X3_DOOR_DRIVER",         "path": "Doors",   "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
     {"id": "X3_DOOR_PASSENGER",      "path": "Doors",   "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},

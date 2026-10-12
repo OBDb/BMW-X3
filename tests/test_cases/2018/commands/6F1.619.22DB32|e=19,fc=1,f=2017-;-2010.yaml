@@ -1,4 +1,4 @@
-command_id: 6F1.619.22DB32|e=19,fc=1
+command_id: 6F1.619.22DB32|e=19,fc=1,f=2017-;-2010
 test_cases:
 - expected_values:
     X3_AXLE_FRONT_ACTUAL_TORQUE: 0
