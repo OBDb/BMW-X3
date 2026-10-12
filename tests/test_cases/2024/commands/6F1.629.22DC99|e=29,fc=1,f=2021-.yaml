@@ -1,12 +1,11 @@
 command_id: 6F1.629.22DC99|e=29,fc=1,f=2021-
 test_cases:
 - expected_values:
-    X3_TPMS_BAT_FR: 2304
+    X3_TPMS_BAT_FR: 9
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_FR: -2.04
-    X3_TP_SET_FR: -1.016
-    X3_TT_FR: 63
+    X3_TP_FR: 2.296
+    X3_TP_SET_FR: 2.3
+    X3_TT_FR: 23
   response: |-
     629F1101B62DC99533D
     629F121AF270108F83F
@@ -14,12 +13,11 @@ test_cases:
     629F123310009FF0000
     629F124FF050300FFFF
 - expected_values:
-    X3_TPMS_BAT_FR: 2304
+    X3_TPMS_BAT_FR: 9
     X3_TPMS_POS_FR: 1
-    X3_TPMS_RX_FR: 255
-    X3_TP_FR: -22.775
-    X3_TP_SET_FR: -1.016
-    X3_TT_FR: 80
+    X3_TP_FR: 2.471
+    X3_TP_SET_FR: 2.3
+    X3_TT_FR: 40
   response: |-
     629F1101B62DC99533D
     629F121AF270109A750

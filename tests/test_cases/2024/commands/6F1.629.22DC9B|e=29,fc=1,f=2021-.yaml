@@ -1,12 +1,11 @@
 command_id: 6F1.629.22DC9B|e=29,fc=1,f=2021-
 test_cases:
 - expected_values:
-    X3_TPMS_BAT_RR: 2304
+    X3_TPMS_BAT_RR: 9
     X3_TPMS_POS_RR: 2
-    X3_TPMS_RX_RR: 255
-    X3_TP_RR: -16.375
-    X3_TP_SET_RR: -15.351
-    X3_TT_RR: 77
+    X3_TP_RR: 2.496
+    X3_TP_SET_RR: 2.5
+    X3_TT_RR: 37
   response: |-
     629F1101B62DC9B533D
     629F121CADA0209C04D
