@@ -4,6 +4,9 @@ test_cases:
     X3_ATF_TEMP: 21
   response: 618F10562DA120045
 - expected_values:
+    X3_ATF_TEMP: 37
+  response: 618F10562DA120055
+- expected_values:
     X3_ATF_TEMP: 42
   response: 618F10562DA12005A
 - expected_values:
