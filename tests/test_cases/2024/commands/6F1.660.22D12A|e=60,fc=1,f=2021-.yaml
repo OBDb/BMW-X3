@@ -1,0 +1,8 @@
+command_id: 6F1.660.22D12A|e=60,fc=1,f=2021-
+test_cases:
+- expected_values:
+    X3_CONS_KWH_100KM: 0
+  response: |-
+    660F1100D62D12A0000
+    660F12119B4072F3C2F
+    660F122111CFFFFFFFF
