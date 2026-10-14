@@ -478,7 +478,7 @@
     {"id": "X3_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
     {"id": "X3_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021], "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021], "from": 2025 },
   "signals": [
     {"id": "X3_RANGE_F_CUR", "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 6553.5, "div": 10,                "nullmax": 6553, "unit": "kilometers" }, "name": "Current fuel range",          "suggestedMetric": "fuelRange",            "description": "Requires range extender."},
     {"id": "X3_RANGE_F_MAX", "path": "Trips", "fmt": {"bix": 48, "len": 16, "max": 6553.5, "div": 10,  "nullmin": 0, "nullmax": 6553, "unit": "kilometers" }, "name": "Maximum fuel range",          "description": "Requires range extender."},
@@ -488,13 +488,13 @@
   "signals": [
     {"id": "X3_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "X3_BC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553, "div": 10,  "nullmax": 6553, "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip computer average consumption"},
     {"id": "X3_BC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,  "div": 100, "nullmax": 655,  "unit": "kilometersPerHour"             }, "name": "Trip computer average speed"},
     {"id": "X3_BC_RANGE",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10,                   "unit": "kilometers"                    }, "name": "Trip computer range"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "X3_CONS_KWH_100KM", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Consumption, kwh/100km"}
   ]},
@@ -514,7 +514,7 @@
   "signals": [
     {"id": "X3_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "X3_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},
