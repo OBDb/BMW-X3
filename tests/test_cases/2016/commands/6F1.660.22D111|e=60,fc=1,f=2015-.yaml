@@ -2,10 +2,10 @@ command_id: 6F1.660.22D111|e=60,fc=1,f=2015-
 test_cases:
 - expected_values:
     X3_AUX_PWR: 0
-    X3_RANGE_F_CUR: 60
+    X3_RANGE_F_CUR: 59
   response: |-
     660F1100F62D1110000
-    660F12100000258FFFF
+    660F1210000024EFFFF
     660F1223A980000FFFF
 - expected_values:
     X3_AUX_PWR: 0
@@ -16,15 +16,15 @@ test_cases:
     660F1223A980000FFFF
 - expected_values:
     X3_AUX_PWR: 0
-    X3_RANGE_F_CUR: 67
-  response: |-
-    660F1100F62D1110000
-    660F1210000029EFFFF
-    660F1223A980000FFFF
-- expected_values:
-    X3_AUX_PWR: 0
     X3_RANGE_F_CUR: 256
   response: |-
     660F1100F62D1110000
     660F12100000A00FFFF
+    660F1223A980000FFFF
+- expected_values:
+    X3_AUX_PWR: 0
+    X3_RANGE_F_CUR: 904
+  response: |-
+    660F1100F62D1110000
+    660F12100002350FFFF
     660F1223A980000FFFF
