@@ -27,6 +27,18 @@ test_cases:
 - expected_values:
     X3_TPMS_BAT_RL: 9
     X3_TPMS_POS_RL: 3
+    X3_TP_RL: 2.619
+    X3_TP_SET_RL: 2.5
+    X3_TT_RL: 41
+  response: |-
+    629F1101B62DC9A533D
+    629F121AFA7030A3B51
+    629F12209C4FF24FF00
+    629F123410009FF0000
+    629F124FF050500FFFF
+- expected_values:
+    X3_TPMS_BAT_RL: 9
+    X3_TPMS_POS_RL: 3
     X3_TP_RL: 2.698
     X3_TP_SET_RL: 2.5
     X3_TT_RL: 47
