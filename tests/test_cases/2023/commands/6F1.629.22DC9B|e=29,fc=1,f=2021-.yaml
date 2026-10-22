@@ -5,7 +5,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.176
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 43
+    X3_TT_RR: 83
   response: |-
     629F1101B62DC9B52EB
     629F1212D3502088053
@@ -17,7 +17,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.203
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 43
+    X3_TT_RR: 83
   response: |-
     629F1101B62DC9B52EB
     629F1212D3502089B53
@@ -29,7 +29,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.203
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 44
+    X3_TT_RR: 84
   response: |-
     629F1101B62DC9B52EB
     629F1212D3502089B54
@@ -41,7 +41,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.255
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 49
+    X3_TT_RR: 89
   response: |-
     629F1101B62DC9B52EB
     629F1212D350208CF59
@@ -53,7 +53,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.303
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 53
+    X3_TT_RR: 93
   response: |-
     629F1101B62DC9B52EB
     629F1212D350208FF5D
@@ -65,7 +65,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.303
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 56
+    X3_TT_RR: 96
   response: |-
     629F1101B62DC9B52EB
     629F1212D350208FF60
@@ -77,7 +77,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.407
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 61
+    X3_TT_RR: 101
   response: |-
     629F1101B62DC9B52EB
     629F1212D3502096765
@@ -89,7 +89,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.603
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 58
+    X3_TT_RR: 98
   response: |-
     629F1101B62DC9B52EB
     629F1212D35020A2B62
@@ -101,7 +101,7 @@ test_cases:
     X3_TPMS_POS_RR: 2
     X3_TP_RR: 2.628
     X3_TP_SET_RR: 2.8
-    X3_TT_RR: 60
+    X3_TT_RR: 100
   response: |-
     629F1101B62DC9B52EB
     629F1212D35020A4464
