@@ -1,6 +1,7 @@
 command_id: 6F1.663.22D030|e=63,fc=1,f=2024-;-2017
 test_cases:
 - expected_values:
+    X3_D030_RAW_6: 0
     X3_GPS_SPD: 0
     X3_NBT_WHL_SPD_1: 0
     X3_NBT_WHL_SPD_2: 0
@@ -11,7 +12,8 @@ test_cases:
     663F121000000000000
     663F122000000000000
 - expected_values:
-    X3_GPS_SPD: 21
+    X3_D030_RAW_6: 21
+    X3_GPS_SPD: 0
     X3_NBT_WHL_SPD_1: 0
     X3_NBT_WHL_SPD_2: 0
     X3_NBT_WHL_SPD_3: 0
@@ -21,7 +23,8 @@ test_cases:
     663F121000000000000
     663F122000000150000
 - expected_values:
-    X3_GPS_SPD: 558
+    X3_D030_RAW_6: 558
+    X3_GPS_SPD: 0
     X3_NBT_WHL_SPD_1: 0
     X3_NBT_WHL_SPD_2: 0
     X3_NBT_WHL_SPD_3: 0
@@ -31,7 +34,8 @@ test_cases:
     663F121000000000000
     663F1220000022E0000
 - expected_values:
-    X3_GPS_SPD: 2268
+    X3_D030_RAW_6: 2268
+    X3_GPS_SPD: 0
     X3_NBT_WHL_SPD_1: 0
     X3_NBT_WHL_SPD_2: 0
     X3_NBT_WHL_SPD_3: 0
@@ -41,7 +45,8 @@ test_cases:
     663F121000000000000
     663F122000008DC0000
 - expected_values:
-    X3_GPS_SPD: 5788
+    X3_D030_RAW_6: 5788
+    X3_GPS_SPD: 0
     X3_NBT_WHL_SPD_1: 0
     X3_NBT_WHL_SPD_2: 0
     X3_NBT_WHL_SPD_3: 0
@@ -51,7 +56,8 @@ test_cases:
     663F121000000000000
     663F1220000169C0000
 - expected_values:
-    X3_GPS_SPD: 6411
+    X3_D030_RAW_6: 6411
+    X3_GPS_SPD: 0
     X3_NBT_WHL_SPD_1: 0
     X3_NBT_WHL_SPD_2: 0
     X3_NBT_WHL_SPD_3: 0
