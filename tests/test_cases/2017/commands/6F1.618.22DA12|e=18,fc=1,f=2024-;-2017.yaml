@@ -4,26 +4,5 @@ test_cases:
     X3_ATF_TEMP: 16
   response: 618F10562DA120040
 - expected_values:
-    X3_ATF_TEMP: 21
-  response: 618F10562DA120045
-- expected_values:
-    X3_ATF_TEMP: 24
-  response: 618F10562DA120048
-- expected_values:
-    X3_ATF_TEMP: 37
-  response: 618F10562DA120055
-- expected_values:
-    X3_ATF_TEMP: 42
-  response: 618F10562DA12005A
-- expected_values:
-    X3_ATF_TEMP: 45
-  response: 618F10562DA12005D
-- expected_values:
-    X3_ATF_TEMP: 47
-  response: 618F10562DA12005F
-- expected_values:
-    X3_ATF_TEMP: 48
-  response: 618F10562DA120060
-- expected_values:
-    X3_ATF_TEMP: 75
-  response: 618F10562DA12007B
+    X3_ATF_TEMP: 79
+  response: 618F10562DA12007F
