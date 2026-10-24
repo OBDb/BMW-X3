@@ -500,11 +500,12 @@
   ]},
 { "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
-    {"id": "X3_NBT_WHL_SPD_1", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 1"},
-    {"id": "X3_NBT_WHL_SPD_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 2"},
-    {"id": "X3_NBT_WHL_SPD_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 3"},
-    {"id": "X3_NBT_WHL_SPD_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 4"},
-    {"id": "X3_GPS_SPD",       "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Speed from satellite positioning"}
+    {"id": "X3_NBT_WHL_SPD_1", "path": "Engine", "fmt": {           "len": 16, "max": 32767,     "min": -32768,                   "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 1"},
+    {"id": "X3_NBT_WHL_SPD_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32767,     "min": -32768,                   "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 2"},
+    {"id": "X3_NBT_WHL_SPD_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 32767,     "min": -32768,                   "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 3"},
+    {"id": "X3_NBT_WHL_SPD_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 32767,     "min": -32768,                   "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 4"},
+    {"id": "X3_GPS_SPD",       "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 60684.484, "min": -60686.336, "mul": 1.852, "sign": true, "unit": "kilometersPerHour" }, "name": "Speed, knots word",    "description": "Whole knots, converted to km/h; tracks wheel sensor speed 1 to 4 on 2016 and 2017 replies"},
+    {"id": "X3_D030_RAW_6",    "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 65535,                                                    "unit": "scalar"            }, "name": "Sixth word, raw",      "description": "Reads about half the knots word on 2016 and 2017; reads 21 to 6411 on 2012 with every wheel speed 0"}
   ]},
 { "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "filter": { "to": 2017, "from": 2024 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015] },
   "signals": [
