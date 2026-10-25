@@ -30,10 +30,10 @@ test_cases:
     660F12230D40000FFFF
 - expected_values:
     X3_AUX_PWR: 0
-    X3_RANGE_F_CUR: 450
+    X3_RANGE_F_CUR: 445
   response: |-
     660F1100F62D1110000
-    660F12100001194FFFF
+    660F12100001162FFFF
     660F12230D40000FFFF
 - expected_values:
     X3_AUX_PWR: 0
