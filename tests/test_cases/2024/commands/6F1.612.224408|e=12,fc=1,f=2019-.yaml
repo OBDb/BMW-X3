@@ -4,5 +4,8 @@ test_cases:
     X3_EOT_DME_K: 14.55
   response: 612F1056244080B3D
 - expected_values:
+    X3_EOT_DME_K: 25.65
+  response: 612F1056244080BAC
+- expected_values:
     X3_EOT_DME_K: 46.35
   response: 612F1056244080C7B

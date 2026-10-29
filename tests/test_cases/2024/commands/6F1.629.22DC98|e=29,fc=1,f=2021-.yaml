@@ -1,6 +1,18 @@
 command_id: 6F1.629.22DC98|e=29,fc=1,f=2021-
 test_cases:
 - expected_values:
+    X3_TPMS_BAT_FL: 8
+    X3_TPMS_POS_FL: 0
+    X3_TP_FL: 2.34
+    X3_TP_SET_FL: 2.3
+    X3_TT_FL: 72
+  response: |-
+    629F1101B62DC98533D
+    629F121C97D00092448
+    629F12208FCFD9CFF00
+    629F123290008FF0000
+    629F124FF050300FFFF
+- expected_values:
     X3_TPMS_BAT_FL: 9
     X3_TPMS_POS_FL: 0
     X3_TP_FL: 2.446
