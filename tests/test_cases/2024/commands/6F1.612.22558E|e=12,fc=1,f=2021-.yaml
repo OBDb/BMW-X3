@@ -15,3 +15,8 @@ test_cases:
   response: |-
     612F1100762558E0000
     612F12188BBFFFFFFFF
+- expected_values:
+    X3_ODO_DME: 35708
+  response: |-
+    612F1100762558E0000
+    612F1218B7CFFFFFFFF
