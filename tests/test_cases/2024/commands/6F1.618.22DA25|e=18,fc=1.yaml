@@ -1,8 +1,8 @@
 command_id: 6F1.618.22DA25|e=18,fc=1
 test_cases:
 - expected_values:
-    X3_EOT: 29
-  response: 618F10562DA25004D
+    X3_EOT: 28
+  response: 618F10562DA25004C
 - expected_values:
     X3_EOT: 115
   response: 618F10562DA2500A3
