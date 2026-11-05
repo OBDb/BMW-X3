@@ -1,0 +1,32 @@
+command_id: 6F1.630.22DB99|e=30,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_STEER_TQ: 0.03125
+  response: 630F10662DB99000400
+- expected_values:
+    X3_STEER_TQ: 0.27344
+  response: 630F10662DB99002300
+- expected_values:
+    X3_STEER_TQ: 0.39062
+  response: 630F10662DB99003200
+- expected_values:
+    X3_STEER_TQ: 0.94531
+  response: 630F10662DB99007900
+- expected_values:
+    X3_STEER_TQ: 1.38281
+  response: 630F10662DB9900B100
+- expected_values:
+    X3_STEER_TQ: 1.59375
+  response: 630F10662DB9900CC00
+- expected_values:
+    X3_STEER_TQ: -2.60156
+  response: 630F10662DB99FEB300
+- expected_values:
+    X3_STEER_TQ: -0.49219
+  response: 630F10662DB99FFC100
+- expected_values:
+    X3_STEER_TQ: -0.32031
+  response: 630F10662DB99FFD700
+- expected_values:
+    X3_STEER_TQ: -0.07812
+  response: 630F10662DB99FFF600

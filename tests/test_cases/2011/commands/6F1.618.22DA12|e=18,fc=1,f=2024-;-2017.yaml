@@ -1,0 +1,23 @@
+command_id: 6F1.618.22DA12|e=18,fc=1,f=2024-;-2017
+test_cases:
+- expected_values:
+    X3_ATF_TEMP: 38
+  response: 618F10562DA120056
+- expected_values:
+    X3_ATF_TEMP: 40
+  response: 618F10562DA120058
+- expected_values:
+    X3_ATF_TEMP: 41
+  response: 618F10562DA120059
+- expected_values:
+    X3_ATF_TEMP: 42
+  response: 618F10562DA12005A
+- expected_values:
+    X3_ATF_TEMP: 43
+  response: 618F10562DA12005B
+- expected_values:
+    X3_ATF_TEMP: 45
+  response: 618F10562DA12005D
+- expected_values:
+    X3_ATF_TEMP: 47
+  response: 618F10562DA12005F

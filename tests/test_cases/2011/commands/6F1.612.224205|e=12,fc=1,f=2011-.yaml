@@ -1,0 +1,23 @@
+command_id: 6F1.612.224205|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_BOOST_P: 3.22656
+  response: 612F105624205019D
+- expected_values:
+    X3_BOOST_P: 3.91406
+  response: 612F10562420501F5
+- expected_values:
+    X3_BOOST_P: 4.30469
+  response: 612F1056242050227
+- expected_values:
+    X3_BOOST_P: 4.39844
+  response: 612F1056242050233
+- expected_values:
+    X3_BOOST_P: 4.69531
+  response: 612F1056242050259
+- expected_values:
+    X3_BOOST_P: 5.08594
+  response: 612F105624205028B
+- expected_values:
+    X3_BOOST_P: 5.47656
+  response: 612F10562420502BD
