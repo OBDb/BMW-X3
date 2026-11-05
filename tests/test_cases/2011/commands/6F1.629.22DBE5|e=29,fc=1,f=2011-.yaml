@@ -7,6 +7,12 @@ test_cases:
     629F121000000000000
     629F12200000000FFFF
 - expected_values:
+    X3_BRAKE_P: 0.3
+  response: |-
+    629F1100F62DBE50003
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
     X3_BRAKE_P: 7
   response: |-
     629F1100F62DBE50046
@@ -16,6 +22,18 @@ test_cases:
     X3_BRAKE_P: 8.6
   response: |-
     629F1100F62DBE50056
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
+    X3_BRAKE_P: 11
+  response: |-
+    629F1100F62DBE5006E
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
+    X3_BRAKE_P: 11.5
+  response: |-
+    629F1100F62DBE50073
     629F121000000000000
     629F12200000000FFFF
 - expected_values:

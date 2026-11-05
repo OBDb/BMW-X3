@@ -1,6 +1,18 @@
 command_id: 6F1.612.22580F|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    X3_IAT_DME: -2.25
+  response: 612F10462580F3D
+- expected_values:
+    X3_IAT_DME: -1.5
+  response: 612F10462580F3E
+- expected_values:
+    X3_IAT_DME: -0.75
+  response: 612F10462580F3F
+- expected_values:
+    X3_IAT_DME: 0
+  response: 612F10462580F40
+- expected_values:
     X3_IAT_DME: 1.5
   response: 612F10462580F42
 - expected_values:
