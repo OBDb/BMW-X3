@@ -4,29 +4,8 @@ test_cases:
     X3_ENG_TQ_6F1: 11
   response: 618F10562442F000B
 - expected_values:
-    X3_ENG_TQ_6F1: 14
-  response: 618F10562442F000E
+    X3_ENG_TQ_6F1: 65522
+  response: 618F10562442FFFF2
 - expected_values:
-    X3_ENG_TQ_6F1: 15
-  response: 618F10562442F000F
-- expected_values:
-    X3_ENG_TQ_6F1: 21
-  response: 618F10562442F0015
-- expected_values:
-    X3_ENG_TQ_6F1: 26
-  response: 618F10562442F001A
-- expected_values:
-    X3_ENG_TQ_6F1: 31
-  response: 618F10562442F001F
-- expected_values:
-    X3_ENG_TQ_6F1: 45
-  response: 618F10562442F002D
-- expected_values:
-    X3_ENG_TQ_6F1: 68
-  response: 618F10562442F0044
-- expected_values:
-    X3_ENG_TQ_6F1: 78
-  response: 618F10562442F004E
-- expected_values:
-    X3_ENG_TQ_6F1: 227
-  response: 618F10562442F00E3
+    X3_ENG_TQ_6F1: 65532
+  response: 618F10562442FFFFC

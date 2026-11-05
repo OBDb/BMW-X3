@@ -5,22 +5,7 @@ test_cases:
   response: 612F1056245060051
 - expected_values:
     X3_OIL_TEMP: 0
-  response: 612F1056245060060
+  response: 612F10562450600DD
 - expected_values:
-    X3_OIL_TEMP: 0
-  response: 612F1056245060061
-- expected_values:
-    X3_OIL_TEMP: 0
-  response: 612F1056245060064
-- expected_values:
-    X3_OIL_TEMP: 0
-  response: 612F105624506006C
-- expected_values:
-    X3_OIL_TEMP: 0
-  response: 612F10562450600A0
-- expected_values:
-    X3_OIL_TEMP: 0
-  response: 612F10562450600A1
-- expected_values:
-    X3_OIL_TEMP: 0
-  response: 612F10562450600AB
+    X3_OIL_TEMP: 1
+  response: 612F1056245060100

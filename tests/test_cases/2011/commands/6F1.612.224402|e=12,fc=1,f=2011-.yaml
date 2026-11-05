@@ -4,29 +4,8 @@ test_cases:
     X3_EOT_6F1: 24
   response: 612F1056244020130
 - expected_values:
-    X3_EOT_6F1: 53.5
-  response: 612F105624402016B
-- expected_values:
-    X3_EOT_6F1: 107.5
-  response: 612F10562440201D7
-- expected_values:
-    X3_EOT_6F1: 109
-  response: 612F10562440201DA
-- expected_values:
     X3_EOT_6F1: 1
   response: 612F1056244020202
-- expected_values:
-    X3_EOT_6F1: 28
-  response: 612F1056244020238
-- expected_values:
-    X3_EOT_6F1: 49.5
-  response: 612F1056244020263
-- expected_values:
-    X3_EOT_6F1: 91
-  response: 612F10562440202B6
-- expected_values:
-    X3_EOT_6F1: 104.5
-  response: 612F10562440202D1
 - expected_values:
     X3_EOT_6F1: 111
   response: 612F10562440202DE

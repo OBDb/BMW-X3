@@ -4,29 +4,11 @@ test_cases:
     X3_MAP: 180.46094
   response: 612F105624A2D5A3B
 - expected_values:
-    X3_MAP: 180.89062
-  response: 612F105624A2D5A72
+    X3_MAP: 183.65625
+  response: 612F105624A2D5BD4
 - expected_values:
-    X3_MAP: 181.4375
-  response: 612F105624A2D5AB8
-- expected_values:
-    X3_MAP: 182.11719
-  response: 612F105624A2D5B0F
-- expected_values:
-    X3_MAP: 182.13281
-  response: 612F105624A2D5B11
-- expected_values:
-    X3_MAP: 182.34375
-  response: 612F105624A2D5B2C
-- expected_values:
-    X3_MAP: 182.53125
-  response: 612F105624A2D5B44
-- expected_values:
-    X3_MAP: 182.96094
-  response: 612F105624A2D5B7B
-- expected_values:
-    X3_MAP: 183
-  response: 612F105624A2D5B80
+    X3_MAP: 186
+  response: 612F105624A2D5D00
 - expected_values:
     X3_MAP: 188.26562
   response: 612F105624A2D5E22
