@@ -1,0 +1,62 @@
+command_id: 6F1.618.22DA2A|e=18,fc=1
+test_cases:
+- expected_values:
+    X3_TQ_CNVRT_RPM: 450
+    X3_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A01C2
+    618F1210000FFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 472
+    X3_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A01D8
+    618F1210000FFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 545
+    X3_TRANS_SHAFT_RPM: 291
+  response: |-
+    618F1100762DA2A0221
+    618F1210123FFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 740
+    X3_TRANS_SHAFT_RPM: 155
+  response: |-
+    618F1100762DA2A02E4
+    618F121009BFFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 1355
+    X3_TRANS_SHAFT_RPM: 2028
+  response: |-
+    618F1100762DA2A054B
+    618F12107ECFFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 1394
+    X3_TRANS_SHAFT_RPM: 2094
+  response: |-
+    618F1100762DA2A0572
+    618F121082EFFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 1467
+    X3_TRANS_SHAFT_RPM: 1977
+  response: |-
+    618F1100762DA2A05BB
+    618F12107B9FFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 1504
+    X3_TRANS_SHAFT_RPM: 2254
+  response: |-
+    618F1100762DA2A05E0
+    618F12108CEFFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 1633
+    X3_TRANS_SHAFT_RPM: 2450
+  response: |-
+    618F1100762DA2A0661
+    618F1210992FFFFFFFF
+- expected_values:
+    X3_TQ_CNVRT_RPM: 1716
+    X3_TRANS_SHAFT_RPM: 2047
+  response: |-
+    618F1100762DA2A06B4
+    618F12107FFFFFFFFFF

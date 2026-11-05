@@ -1,0 +1,26 @@
+command_id: 6F1.612.224201|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_BARO: 45.21875
+  response: 612F1056242012D38
+- expected_values:
+    X3_BARO: 45.24609
+  response: 612F1056242012D3F
+- expected_values:
+    X3_BARO: 45.26172
+  response: 612F1056242012D43
+- expected_values:
+    X3_BARO: 45.26562
+  response: 612F1056242012D44
+- expected_values:
+    X3_BARO: 45.26953
+  response: 612F1056242012D45
+- expected_values:
+    X3_BARO: 45.30469
+  response: 612F1056242012D4E
+- expected_values:
+    X3_BARO: 45.32031
+  response: 612F1056242012D52
+- expected_values:
+    X3_BARO: 45.32812
+  response: 612F1056242012D54

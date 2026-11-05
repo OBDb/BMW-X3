@@ -1,0 +1,12 @@
+command_id: 6F1.678.22D85C|e=78,fc=1,f=2024-;-2017
+test_cases:
+- expected_values:
+    X3_CABIN_T: 24
+  response: |-
+    678F1100862D85C1819
+    678F1211B0007FFFFFF
+- expected_values:
+    X3_CABIN_T: 24
+  response: |-
+    678F1100862D85C1819
+    678F1211B0009FFFFFF
