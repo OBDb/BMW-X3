@@ -1,32 +1,8 @@
 command_id: 6F1.612.225813|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
-    X3_LOAD: 12.75
-  response: 612F10462581311
-- expected_values:
-    X3_LOAD: 17.25
-  response: 612F10462581317
-- expected_values:
-    X3_LOAD: 19.5
-  response: 612F1046258131A
-- expected_values:
-    X3_LOAD: 25.5
-  response: 612F10462581322
-- expected_values:
-    X3_LOAD: 29.25
-  response: 612F10462581327
-- expected_values:
-    X3_LOAD: 32.25
-  response: 612F1046258132B
-- expected_values:
-    X3_LOAD: 35.25
-  response: 612F1046258132F
-- expected_values:
-    X3_LOAD: 38.25
-  response: 612F10462581333
-- expected_values:
-    X3_LOAD: 40.5
-  response: 612F10462581336
+    X3_LOAD: 11.25
+  response: 612F1046258130F
 - expected_values:
     X3_LOAD: 62.25
   response: 612F10462581353
