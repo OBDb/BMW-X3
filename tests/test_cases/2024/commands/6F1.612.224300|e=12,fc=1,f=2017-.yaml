@@ -22,6 +22,9 @@ test_cases:
     X3_ET: 82.55
   response: 612F1056243000DE5
 - expected_values:
+    X3_ET: 98.75
+  response: 612F1056243000E87
+- expected_values:
     X3_ET: 104.55
   response: 612F1056243000EC1
 - expected_values:
