@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X3_HVAC_AUC: 0
   response: 678F10562D9300000
+- expected_values:
+    X3_HVAC_AUC: 0
+  response: 678F10562D9300001
