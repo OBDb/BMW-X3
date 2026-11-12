@@ -1,0 +1,14 @@
+command_id: 6F1.612.224506|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_OIL_TEMP: 4
+  response: 612F1056245060491
+- expected_values:
+    X3_OIL_TEMP: 39
+  response: 612F10562450627E2
+- expected_values:
+    X3_OIL_TEMP: 70
+  response: 612F1056245064602
+- expected_values:
+    X3_OIL_TEMP: 110
+  response: 612F1056245066E0F

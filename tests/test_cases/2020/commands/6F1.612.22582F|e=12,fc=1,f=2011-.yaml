@@ -1,0 +1,14 @@
+command_id: 6F1.612.22582F|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_CAT_T: 471.35
+  response: 612F10562582F1D15
+- expected_values:
+    X3_CAT_T: 571.95
+  response: 612F10562582F2103
+- expected_values:
+    X3_CAT_T: 606.55
+  response: 612F10562582F225D
+- expected_values:
+    X3_CAT_T: 620.75
+  response: 612F10562582F22EB
