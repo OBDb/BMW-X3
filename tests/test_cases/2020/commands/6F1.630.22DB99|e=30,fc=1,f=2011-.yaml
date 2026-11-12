@@ -1,0 +1,11 @@
+command_id: 6F1.630.22DB99|e=30,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_STEER_TQ: 0.15625
+  response: 630F10662DB99001400
+- expected_values:
+    X3_STEER_TQ: -1.69531
+  response: 630F10662DB99FF2700
+- expected_values:
+    X3_STEER_TQ: -0.03125
+  response: 630F10662DB99FFFC00

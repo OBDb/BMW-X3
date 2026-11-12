@@ -1,0 +1,11 @@
+command_id: 6F1.612.224408|e=12,fc=1,f=2019-
+test_cases:
+- expected_values:
+    X3_EOT_DME_K: 49.95
+  response: 612F1056244080C9F
+- expected_values:
+    X3_EOT_DME_K: 85.05
+  response: 612F1056244080DFE
+- expected_values:
+    X3_EOT_DME_K: 85.65
+  response: 612F1056244080E04

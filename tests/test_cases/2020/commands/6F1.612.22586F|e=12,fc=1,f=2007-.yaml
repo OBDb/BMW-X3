@@ -1,0 +1,14 @@
+command_id: 6F1.612.22586F|e=12,fc=1,f=2007-
+test_cases:
+- expected_values:
+    X3_EOP: 2.277
+  response: 612F10562586F08E5
+- expected_values:
+    X3_EOP: 2.558
+  response: 612F10562586F09FE
+- expected_values:
+    X3_EOP: 2.57
+  response: 612F10562586F0A0A
+- expected_values:
+    X3_EOP: 2.997
+  response: 612F10562586F0BB5
