@@ -4,5 +4,8 @@ test_cases:
     X3_VSS2: 0
   response: 612F105624AB10000
 - expected_values:
-    X3_VSS2: 5.35
-  response: 612F105624AB10217
+    X3_VSS2: 117.75
+  response: 612F105624AB12DFF
+- expected_values:
+    X3_VSS2: 131.55
+  response: 612F105624AB13363
