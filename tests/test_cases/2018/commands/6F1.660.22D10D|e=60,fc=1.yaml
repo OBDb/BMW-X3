@@ -1,6 +1,12 @@
 command_id: 6F1.660.22D10D|e=60,fc=1
 test_cases:
 - expected_values:
+    X3_ODO: 101804
+    X3_ODO_ALT: 101804
+  response: |-
+    660F1100B62D10D0001
+    660F1218DAC00018DAC
+- expected_values:
     X3_ODO: 154691
     X3_ODO_ALT: 154691
   response: |-
