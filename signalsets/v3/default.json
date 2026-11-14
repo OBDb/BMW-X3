@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "from": 2025 },
+{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "X3_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
@@ -446,7 +446,7 @@
   "signals": [
     {"id": "X3_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2019, "years": [2021], "from": 2025 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2017, "years": [2019, 2021], "from": 2025 },
   "signals": [
     {"id": "X3_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant", "suggestedMetric": "odometer"}
   ]},
