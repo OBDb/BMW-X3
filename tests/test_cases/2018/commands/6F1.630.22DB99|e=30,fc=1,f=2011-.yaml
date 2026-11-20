@@ -4,6 +4,15 @@ test_cases:
     X3_STEER_TQ: 0.04688
   response: 630F10662DB99000600
 - expected_values:
+    X3_STEER_TQ: 0.07031
+  response: 630F10662DB99000900
+- expected_values:
+    X3_STEER_TQ: 0.07812
+  response: 630F10662DB99000A00
+- expected_values:
+    X3_STEER_TQ: 0.08594
+  response: 630F10662DB99000B00
+- expected_values:
     X3_STEER_TQ: 0.89062
   response: 630F10662DB99007200
 - expected_values:

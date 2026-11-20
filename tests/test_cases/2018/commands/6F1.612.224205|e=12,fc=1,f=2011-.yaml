@@ -1,6 +1,12 @@
 command_id: 6F1.612.224205|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    X3_BOOST_P: 256.86719
+  response: 612F105624205806F
+- expected_values:
+    X3_BOOST_P: 256.88281
+  response: 612F1056242058071
+- expected_values:
     X3_BOOST_P: 256.89062
   response: 612F1056242058072
 - expected_values:

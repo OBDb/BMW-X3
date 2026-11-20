@@ -10,5 +10,5 @@ test_cases:
     X3_BARO: 134.92188
   response: 612F10562420186EC
 - expected_values:
-    X3_BARO: 141.14844
-  response: 612F1056242018D26
+    X3_BARO: 142.15234
+  response: 612F1056242018E27
