@@ -1,0 +1,14 @@
+command_id: 6F1.612.224201|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    X3_BARO: 120.86719
+  response: 612F10562420178DE
+- expected_values:
+    X3_BARO: 134.12109
+  response: 612F105624201861F
+- expected_values:
+    X3_BARO: 134.92188
+  response: 612F10562420186EC
+- expected_values:
+    X3_BARO: 141.14844
+  response: 612F1056242018D26
