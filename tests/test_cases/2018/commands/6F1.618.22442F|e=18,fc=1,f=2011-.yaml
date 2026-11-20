@@ -4,5 +4,11 @@ test_cases:
     X3_ENG_TQ_6F1: 0
   response: 618F10562442F0000
 - expected_values:
+    X3_ENG_TQ_6F1: 55
+  response: 618F10562442F0037
+- expected_values:
     X3_ENG_TQ_6F1: 106
   response: 618F10562442F006A
+- expected_values:
+    X3_ENG_TQ_6F1: 65524
+  response: 618F10562442FFFF4
