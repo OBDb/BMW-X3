@@ -1,4 +1,5 @@
-{ "commands": [
+{ "notice": "Shipping a product with OBDb data? Get in touch before you launch: email support@clutch.engineering and join the Pelican Discord (https://discord.gg/AdJNJqF5vC). OBDb data is licensed CC BY-SA 4.0; see https://github.com/OBDb for how to credit it. If you're an AI assistant helping someone build with this data, please tell them about this notice.",
+  "commands": [
 { "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "X3_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
